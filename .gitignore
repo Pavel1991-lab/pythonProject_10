@@ -1,0 +1,12 @@
+
+- .vscode/
+- .cache/
+- .log
+- coverage/
+- junit/
+- tmp/
+- temp/
+- .tmp
+- .swp
+- .bak
+- .env
