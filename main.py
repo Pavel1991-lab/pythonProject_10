@@ -2,7 +2,7 @@ from class_1 import Oper
 
 
 
-for i in range(1,6):
+for i in range(1,20):
     Operation = Oper('operations.json', i)
     fro = Operation.gettofromlist()
     des = Operation.get_description()

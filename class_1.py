@@ -9,10 +9,7 @@ class Oper:
     def execute(self):
         with open(self.list, 'r', encoding='utf-8') as f:
             data = json.load(f)
-        execute = []
-        for i in data:
-            execute.append(i)
-        return execute
+        return data
 
     def filter_by_state(self):
         new_lst = []
